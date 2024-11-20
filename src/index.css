@@ -1,0 +1,22 @@
+:root {
+  font-family: 'Courier Prime', monospace;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #000;
+  --secondary: #878787c3;
+  --terceary: #ff0000;
+  --red: #ff0000;
+  --soft-white: #f1f1f1;
+   --white: #fff;
+  --black: #000;
+  --gray: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+.sobre {
+    background-color: #000;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+.bio {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.bio span {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.textos h2, p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.techs {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones img {
+    width: 5rem;
+    height: 5rem;
+}

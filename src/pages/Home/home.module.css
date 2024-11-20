@@ -1,0 +1,62 @@
+/* CSS DA PAGE HOME */
+
+.home {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha os itens com espaço entre eles */
+    padding: 0 10rem; /* Adiciona espaçamento lateral */
+}
+
+.home .apresentacao {
+    flex: 1; /* Permite que o texto ocupe espaço proporcional */
+    max-width: 50%; /* Limita o texto a 50% do espaço */
+}
+
+.home figure {
+    flex: 1; /* Permite que a imagem ocupe espaço proporcional */
+    max-width: 50%; /* Limita a imagem a 50% do espaço */
+    display: flex;
+    justify-content: flex-end; /* Alinha a imagem à direita */
+}
+
+.home img {
+    height: 500px;
+    max-width: 100%; /* Evita overflow */
+    object-fit: contain; /* Garante que a imagem fique ajustada */
+}
+
+.home p {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.2; /* Melhora a legibilidade */
+}
+
+.home span {
+    color: var(--red);
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn_red {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn_red:hover {
+    background-color: var(--primary);
+}

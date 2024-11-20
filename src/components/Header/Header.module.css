@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--primary);
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.header span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 1.5rem;
+    font-size:  1.225rem;
+}
+
+.header a:hover {
+    color: var(--red); /*muda a cor da fonte ao passar o cursor por cima*/
+    border-radius: 5px;
+}
