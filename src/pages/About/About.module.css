@@ -33,22 +33,24 @@
 }
 
 .techs {
-    width: 80%;
+    width: 120%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    text-align: center;
 }
 
 .icones {
     width: 100%;
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem; /* Espaçamento entre os ícones */
     align-items: center;
-    justify-content: space-around;
+    justify-content: center; /* Centraliza os ícones */
 }
 
 .icones img {
     width: 5rem;
     height: 5rem;
+    object-fit: contain; /* Garante que as imagens mantenham a proporção */
 }
