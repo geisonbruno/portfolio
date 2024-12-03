@@ -1,0 +1,22 @@
+.projectsPage {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título da página */
+.pageTitle {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+/* Lista de projetos */
+.projectsList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Espaçamento entre os projetos */
+    width: 100%;
+    max-width: 800px; /* Limita a largura máxima da lista */
+}

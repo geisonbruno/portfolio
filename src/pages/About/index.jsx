@@ -36,24 +36,24 @@ function About() {
             </div>
 
             <div className={styles.techs}>
-                <h3>Techs</h3>
+                <h3>Techs/Tools</h3>
                 <div className={styles.icones}>
                     <img src={html} alt="Icone do html" title='HTML' />
-                    <img src={css} alt="Icone do css" title='CSS'/>
+                    <img src={css} alt="Icone do css" title='CSS' />
                     <img src={react} alt="Icone do react" title='React' />
-                    <img src={mysql} alt="Icone do mysql" title='MySQL'/>
-                    <img src={git} alt="Icone do git" title='Git'/>
-                    <img src={linux} alt="Icone do linux" title='Linux'/>
-                    <img src={windows} alt="Icone do windows" title='Windows'/>
-                    <img src={androidstudio} alt="Icone do androidstudio" title='Android Studio'/>
-                    <img src={googleplay} alt="Icone do googleplay" title='Google Play'/>
-                    <img src={firebase} alt="Icone do firebase" title='Firebase'/>
-                    <img src={maven} alt="Icone do maven" title='Maven'/>
-                    <img src={java} alt="Icone do java" title='Java'/>
-                    <img src={kotlin} alt="Icone do kotlin" title='Kotlin'/>
-                    <img src={spring} alt="Icone do spring" title='Spring boot'/>
-                    <img src={fastlane} alt="Icone do fastlane" title='Fastlane'/>
-                    <img src={build} alt="Icone do build" title='Build gradle'/>
+                    <img src={mysql} alt="Icone do mysql" title='MySQL' />
+                    <img src={git} alt="Icone do git" title='Git' />
+                    <img src={linux} alt="Icone do linux" title='Linux' />
+                    <img src={windows} alt="Icone do windows" title='Windows' />
+                    <img src={maven} alt="Icone do maven" title='Maven' />
+                    <img src={java} alt="Icone do java" title='Java' />
+                    <img src={spring} alt="Icone do spring" title='Spring boot' />
+                    <img src={androidstudio} alt="Icone do androidstudio" title='Android Studio' />
+                    <img src={googleplay} alt="Icone do googleplay" title='Google Play' />
+                    <img src={firebase} alt="Icone do firebase" title='Firebase' />
+                    <img src={kotlin} alt="Icone do kotlin" title='Kotlin' />
+                    <img src={fastlane} alt="Icone do fastlane" title='Fastlane' />
+                    <img src={build} alt="Icone do build" title='Build gradle' />
                 </div>
             </div>
         </section>
