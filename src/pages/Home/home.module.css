@@ -1,55 +1,53 @@
 /* CSS DA PAGE HOME */
 
+/* Estilo principal (Desktop) - sem alterações */
 .home {
     width: 100%;
     min-height: 90vh;
     display: flex;
-    align-items: center;
-    justify-content: space-between; /* Alinha os itens com espaço entre eles */
-    padding: 0 10rem; /* Adiciona espaçamento lateral */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Mantém o conteúdo alinhado horizontalmente */
+    padding: 0 20rem; /* Espaçamento lateral */
 }
 
 .home .apresentacao {
-    flex: 1; /* Permite que o texto ocupe espaço proporcional */
-    max-width: 50%; /* Limita o texto a 50% do espaço */
-}
-
-.home figure {
-    flex: 1; /* Permite que a imagem ocupe espaço proporcional */
-    max-width: 50%; /* Limita a imagem a 50% do espaço */
+    flex: 1; /* O texto ocupa espaço proporcional */
+    max-width: 100%;
     display: flex;
-    justify-content: flex-end; /* Alinha a imagem à direita */
-}
-
-.home img {
-    height: 500px;
-    max-width: 100%; /* Evita overflow */
-    object-fit: contain; /* Garante que a imagem fique ajustada */
+    flex-direction: column; /* Alinha o texto verticalmente */
 }
 
 .home p {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    line-height: 1.2; /* Melhora a legibilidade */
+    line-height: 1.2;
 }
 
 .home span {
     color: var(--red);
 }
 
+.buttonContainer {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os botões */
+    justify-content: left; /* Mantém os botões alinhados à esquerda */
+    margin-top: 1rem;
+}
+
 .btn {
-    width: 250px;
-    height: 50px;
+    height: 60px;
     font-size: 1.125rem;
     font-weight: bold;
     border: 0;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    padding: 0 35px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn_red {
@@ -58,5 +56,77 @@
 }
 
 .btn_red:hover {
-    background-color: var(--primary);
+    transform: translateY(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn_work {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn_work:hover {
+    transform: translateY(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* === Responsividade === */
+
+@media (max-width: 1280px) {
+    .home {
+        padding: 0 10rem; /* Reduz o espaçamento lateral */
+    }
+}
+
+/* Ajuste para telas menores que 768px */
+@media (max-width: 768px) {
+    .home {
+        padding: 0 2rem; /* Reduz o espaçamento lateral */
+        align-items: center; /* Centraliza o conteúdo horizontalmente */
+        min-height: 90vh; /* Garante altura da tela */
+
+    }
+
+    /* .home .apresentacao {
+        
+    } */
+
+    .home p {
+        font-size: 2rem; /* Ajusta o tamanho do texto */
+    }
+
+    .buttonContainer {
+
+        gap: 15px; /* Reduz o espaçamento entre os botões */
+    }
+
+    .btn {
+        width: 100%; /* Faz os botões ocuparem toda a largura */
+        max-width: 300px; /* Define um limite de largura */
+    }
+}
+
+
+/* Ajuste para telas menores que 480px */
+@media (max-width: 480px) {
+
+    .home {
+        padding: 0 1rem; /* Reduz ainda mais o espaçamento lateral */
+    }
+
+    .home p {
+        font-size: 2rem; /* Reduz ainda mais o tamanho do texto */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        font-size: 2cap; /* Ajusta o tamanho da fonte dos botões */
+        height: 60px; /* Reduz a altura dos botões */
+        padding: 0 20px;
+    }
+
+    .apresentacao {
+        margin-bottom: 1rem; /* Adiciona um espaçamento inferior */
+    }
 }

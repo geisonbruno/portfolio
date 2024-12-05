@@ -57,7 +57,7 @@ const projectData = [
 function Projects() {
     return (
         <div className={styles.projectsPage}>
-            <h2 className={styles.pageTitle}>My Projects</h2>
+            <h2 className={styles.pageTitle}>Latest Projects</h2>
             <div className={styles.projectsList}>
                 {projectData.map((project, index) => (
                     <Card key={index} {...project} />

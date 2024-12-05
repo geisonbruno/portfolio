@@ -27,7 +27,7 @@
     font-weight: bold;
 }
 
-.textos h2, p {
+.textos h2, p, h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }

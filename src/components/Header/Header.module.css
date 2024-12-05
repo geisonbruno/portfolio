@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: space-around;
 
+    position: fixed;
+    top: 0;
+
 }
 .header span {
     font-size: 1.5rem;

@@ -10,13 +10,15 @@ function Home() {
           <span>Geison Bruno</span> <br />
           Developer Java, Kotlin
         </p>
-        <Link to="/about" className={`${styles.btn} ${styles.btn_red}`}>
-          About me
-        </Link>
+        <div className={styles.buttonContainer}>
+          <Link to="/about" className={`${styles.btn} ${styles.btn_red}`}>
+            About me
+          </Link>
+          <Link to="/projects" className={`${styles.btn} ${styles.btn_work}`}>
+            See my work
+          </Link>
+        </div>
       </div>
-      <figure>
-        <img className={styles.img_home} src="/developer-mode.svg" alt="Developer" />
-      </figure>
     </section>
   );
 }

@@ -25,18 +25,18 @@ function About() {
             <div className={styles.bio}>
                 <img src={avatar} alt="Avatar" className={styles.avatar} />
                 <div className={styles.textos}>
-                    <h2>About</h2>
+                    {/* <h2>About</h2>
                     <p>I'm <span>Geison Bruno</span> <br />
-                        <strong>Developer</strong> </p>
+                        <strong>Developer</strong> </p> */}
 
-                    <p>Here you will found some of my personal projects, but that doesnt means this is reflect all my skills, most of projects that i'm currently working are closed source, So if you need to know something, feel free to ask in my Socials.</p>
+                    <p>• Here you will found some of my personal projects, but that doesnt means this is reflect all my skills, most of projects that i'm currently working are closed source, So if you need to know something, feel free to ask in my Socials.</p>
 
-                    <p>I have been working professionally for 1 year and 5 months as a Developer, acting as a Back-end in mobile and web applications.</p>
+                    <p>• I have been working professionally for 1 year and 4 months as a Developer, acting as a Back-end in mobile and web applications.</p>
                 </div>
             </div>
 
             <div className={styles.techs}>
-                <h3>Techs/Tools</h3>
+                <h3>Skills</h3>
                 <div className={styles.icones}>
                     <img src={html} alt="Icone do html" title='HTML' />
                     <img src={css} alt="Icone do css" title='CSS' />

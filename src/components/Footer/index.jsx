@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 function Footer () {
   return (
     <footer className={styles.footer}>
-      Powered by Geison Bruno ©️ 2022 ♻️
+      Copyright © 2022 by Geison Bruno. All rights reserved.
     </footer>
   );
 }	
